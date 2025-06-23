@@ -314,3 +314,41 @@ body {
     font-style: italic;
     margin-top: 5px;
   }
+
+
+
+  /* Effet de survol sur les blocs formation */
+.hover-box .formation {
+    position: relative;
+    padding-left: 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Fond gris clair et trait vertical bleu à gauche au survol */
+  .hover-box .formation:hover {
+    background-color: #e6e6e6; /* Gris clair */
+  }
+  
+  .hover-box .formation:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #17abb3; /* Ton bleu principal */
+    border-radius: 4px;
+  }
+
+  .footer-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.2s, opacity 0.2s ease-in-out;
+  }
+  
+  .footer-icons a:hover {
+    transform: scale(1.1);
+    opacity: 0.7; /* Réduction légère de l’opacité */
+  }
