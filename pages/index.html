@@ -1,69 +1,205 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Devoir-3 création de mon CV">
-    <title>DEVOIR-3</title>
-    <link rel="stylesheet" href="../assets/css/home.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV Emna Ben Saad</title>
+  <link rel="stylesheet" href="../assets/css/home.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- pour les icônes -->
 </head>
 
 <body>
+  <div class="cv-container">
 
     <!-- En-tête principal du CV -->
-<header class="header-cv">
-
-    <!-- Photo de profil -->
-    <div class="photo">
+    <header class="header-cv">
+      <!-- Photo de profil -->
+      <div class="photo">
         <a href="../assets/images/IMG_2512.PNG" target="_blank">
-          <img src="../assets/images/IMG_2512.PNG" alt="Photo de profil">
+          <img src="../assets/images/IMG_2512.PNG" alt="Photo de profil" />
         </a>
       </div>
 
-  
-    <!-- Informations personnelles -->
-    <div class="info">
-      <h1>Emna Ben Saad</h1>
-      <h2>Développeur Web et Web Mobile</h2>
-  
-      <!-- Bloc de contact avec icônes -->
-      <div class="contact-grid">
-  
-        <!-- email -->
-        <a href="mailto:emna.95190@outlook.fr" target="_blank">
-          <i class="fas fa-envelope"></i> Mail
-        </a>
-  
-        <!-- Adresse physique avec lien vers Google Maps -->
-        <a href="https://www.google.fr/maps/place/3+Av.+des+Buttes+Chaumont,+77500+Chelles/@48.8744758,2.5670784,17z/data=!3m1!4b1!4m5!3m4!1s0x47e61195a4cd9bb7:0x3d0f84f4392ef278!8m2!3d48.8744723!4d2.5696533?entry=ttu" target="_blank">
-          <i class="fas fa-home"></i> Adresse
-        </a>
-  
-        <!-- téléphone -->
-        <a href="tel:+33123456789" target="_blank">
-          <i class="fas fa-phone"></i> Téléphone
-        </a>
-  
-        <!-- Permis de conduire -->
-        <a href="#" target="_blank">
-          <i class="fas fa-car"></i> Permis B
-        </a>
-  
-      </div> <!-- fin de contact-grid -->
-    </div> <!-- fin de info -->
+      <!-- Informations personnelles -->
+      <div class="info">
+        <h1>Emna Ben Saad</h1>
+        <h2>Développeur Web et Web Mobile</h2>
 
-  
-  </header> <!-- fin de header-cv -->
-
-
+        <!-- Bloc de contact avec icônes -->
+        <div class="contact-grid">
+          <a href="mailto:emna.95190@outlook.fr" target="_blank">
+            <i class="fas fa-envelope"></i> Mail
+          </a>
+          <a href="https://www.google.fr/maps/place/3+Av.+des+Buttes+Chaumont,+77500+Chelles/" target="_blank">
+            <i class="fas fa-home"></i> Adresse
+          </a>
+          <a href="tel:+33123456789" target="_blank">
+            <i class="fas fa-phone"></i> Téléphone
+          </a>
+          <a href="#" target="_blank">
+            <i class="fas fa-car"></i> Permis B
+          </a>
+        </div>
+      </div>
+    </header>
 
     <main>
-       
+      <div class="flex-sections">
+
+        <!-- Colonne gauche : infos secondaires -->
+        <aside class="colonne-gauche">
+          <section class="section">
+            <h3 class="couleur">Compétences</h3>
+            <hr />
+            <div class="ligne-flex">
+              <span class="titre">HTML</span>
+              <span class="date">★★★★☆</span>
+            </div>
+            <div class="ligne-flex">
+              <span class="titre">CSS</span>
+              <span class="date">★★★★☆</span>
+            </div>
+          </section>
+
+          <section class="section espace">
+            <h3 class="couleur">Langues</h3>
+            <hr />
+            <div class="ligne-flex">
+              <span class="titre">Français</span>
+              <span>Langue maternelle</span>
+            </div>
+            <div class="ligne-flex">
+              <span class="titre">Anglais</span>
+              <span>Intermédiaire</span>
+            </div>
+            <div class="ligne-flex">
+              <span class="titre">Arabe</span>
+              <span>Niveau scolaire</span>
+            </div>
+          </section>
+
+          <section class="section">
+            <h3 class="couleur">Qualités</h3>
+            <hr />
+            <ul>
+              <li>Esprit d'équipe</li>
+              <li>Autonomie</li>
+              <li>Organisation</li>
+              <li>Créativité</li>
+            </ul>
+          </section>
+
+          <section class="section">
+            <h3 class="couleur">Centre d'intérêt</h3>
+            <hr />
+            <ul>
+              <li>Yoga</li>
+              <li>Tennis</li>
+              <li>Écologie</li>
+            </ul>
+          </section>
+        </aside>
+
+        <!-- Colonne droite : contenu principal -->
+        <section class="colonne-droite">
+          <section class="section">
+            <h3 class="couleur">Profil</h3>
+            <hr />
+            <p class="profil">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum
+              quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni
+              debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur! <br /><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum
+              quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque unde deleniti dicta perferendis magni
+              debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!
+            </p>
+          </section>
+
+          <section class="section hover-box">
+            <h3 class="couleur">Formations</h3>
+            <hr />
+
+            <div class="formation">
+              <div class="ligne-flex">
+                <span class="titre">Titre Professionnel DWWM</span>
+                <span class="date">2024...</span>
+              </div>
+              <div class="lieu">Centre Européen de Formation</div>
+            </div>
+
+            <div class="formation">
+              <div class="ligne-flex">
+                <span class="titre">Baccalauréat Professionnel Commerce</span>
+                <span class="date">2021</span>
+              </div>
+              <div class="lieu">Lycée Romain Rolland</div>
+            </div>
+
+            <div class="formation">
+              <div class="ligne-flex">
+                <span class="titre">BEP - Commerce</span>
+                <span class="date">2018</span>
+              </div>
+              <div class="lieu">Lycée Romain Rolland</div>
+            </div>
+          </section>
+
+          <section class="section hover-box">
+            <h3 class="couleur">Stages</h3>
+            <hr />
+            <div class="formation">
+              <div class="ligne-flex">
+                <span class="titre">Vendeuse</span>
+                <span class="date">2022-2023</span>
+              </div>
+              <div class="lieu">Le Pharaon Store</div>
+            </div>
+          </section>
+
+          <section class="section hover-box">
+            <h3 class="couleur">Expérience professionnelle</h3>
+            <hr />
+
+            <div class="formation">
+              <div class="ligne-flex">
+                <span class="titre">Préparatrice de commande</span>
+                <span class="date">2024</span>
+              </div>
+              <div class="lieu">La FDJ</div>
+            </div>
+
+            <div class="formation">
+              <div class="ligne-flex">
+                <span class="titre">Chargée de communication</span>
+                <span class="date">2023-2024</span>
+              </div>
+              <div class="lieu">Le Pharaon Store</div>
+            </div>
+
+            <div class="formation">
+              <div class="ligne-flex">
+                <span class="titre">Vendeuse</span>
+                <span class="date">2019 - 2022</span>
+              </div>
+              <div class="lieu">Esprit de Corp</div>
+            </div>
+
+            <div class="formation">
+              <div class="ligne-flex">
+                <span class="titre">Vendeuse</span>
+                <span class="date">2017</span>
+              </div>
+              <div class="lieu">Yves Rocher</div>
+            </div>
+          </section>
+        </section>
+      </div>
     </main>
 
     <footer>
-
+      <!-- contenu footer si besoin -->
     </footer>
-</body>
+  </div>
 
+</body>
 </html>

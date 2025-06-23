@@ -1,3 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #f5f5f5;
+}
+  
+  /* Conteneur principal du CV */
+  .cv-container {
+    width: 1160px;
+    box-sizing: border-box;
+    background: #ffffff;
+    overflow-y: auto;
+    max-height: 90vh;
+  }
+
+
+
+
 .header-cv {
     display: flex;
     align-items: center;         
@@ -114,4 +135,148 @@
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
+  }
+
+
+
+  .colonne-gauche {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .colonne-droite {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .colonne-gauche {
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e3e3e3 ;
+  }
+  
+  .colonne-droite {
+    flex: 2; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .flex-sections {
+    display: flex;
+    gap: 0; 
+  }
+
+  
+  .bloc {
+    display: inline-block;
+    margin-right: 91px 
+  }
+
+  .bloc2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .formation {
+    margin-bottom: 20px;
+  }
+
+  .ligne-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .titre {
+    font-weight: bold;
+  }
+
+
+  .lieu {
+    margin-top: 4px;
+    color: #555;
+    font-size: 0.95em;
+    font-style: italic;
+  }
+
+  ul {
+    list-style-type: square; 
+    padding-left: 20px;      
+  }
+  
+  ul li::marker {
+    color: #17abb3;            
+  }
+
+  hr {
+    border: none;            
+    height: 1px;              
+    background-color: #ccc;   
+    margin: 10px 0;           
+  }
+
+  
+
+  .date {
+    color: #17abb3;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .contact-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .contact-item i {
+    font-size: 18px;
+  }
+  
+  .contact-item a, .contact-item span {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+
+  .contact.info {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+  }
+
+  h3 {
+    color: #17abb3;
   }
